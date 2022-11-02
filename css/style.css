@@ -4,16 +4,17 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     display: grid;
     grid-template-areas: "navbar navbar"
         "contenido contenido"
         "footer footer";
-        grid-template-columns: 1fr ,1fr;
-        grid-template-rows: 1fr, 10fr, 1fr;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr, 10fr, 1fr;
     width: 100%;
     gap: 1rem;
 }
+
 .fondo {
     background-image: url(../assets/imagenes/fondo1.jpg);
     background-repeat: no-repeat;
@@ -32,6 +33,7 @@ main {
     grid-area: contenido;
     width: 100%;
 }
+
 /*footer*/
 footer {
     grid-area: footer;
@@ -76,7 +78,7 @@ main .card-inicio {
     width: 100%;
     height: 400px;
     position: relative;
-    animation:  15s infinite linear alternate;
+    animation: 15s infinite linear alternate;
     margin-top: 40px;
 }
 
@@ -116,7 +118,7 @@ main .card-inicio {
 
 .detalles p {
     margin-top: 10px;
-    font-size: 1,4rem;
+    font-size: 1, 4rem;
     font-weight: 100;
     text-align: center;
 }
@@ -336,10 +338,18 @@ p {
 
 
 @media screen and (max-width: 600px) {
+    html {
+        overflow: hidden;
+    }
+
     .fondo {
         background-image: url(../assets/imagenes/fondo2.jpg);
-        overflow: hidden;
-    
+        overflow: auto;
+
+    }
+
+    main {
+        overflow: auto;
     }
 
     .galeria-img .imagenes {
@@ -359,12 +369,19 @@ p {
     input {
         width: 25rem;
     }
+
     .contenedor-detalles {
         position: absolute;
         margin: auto;
         padding-bottom: 14rem;
         height: 100%;
     }
-    footer{display: none;}
-    .detalles a{display: none;}
+
+    footer {
+        display: none;
+    }
+
+    .detalles a {
+        display: none;
+    }
 }
