@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display: grid;
+    grid-template-areas: "navbar navbar"
+        "contenido contenido"
+        "footer footer";
+        grid-template-columns: 1fr ,1fr;
+        grid-template-rows: 1fr, 10fr, 1fr;
+    width: 100%;
+    gap: 1rem;
+}
+.fondo {
+    background-image: url(../assets/imagenes/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+header {
+    grid-area: navbar;
+    width: 100%;
+    height: 10%;
+}
+
+main {
+    grid-area: contenido;
+    width: 100%;
+}
+/*footer*/
+footer {
+    grid-area: footer;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    min-width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 36px;
+    height: 36px;
+    line-height: 35px;
+    text-align: center;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+    transform: scale(1.2);
+}
+
+
+main .card-inicio {
+    margin: 4rem;
+}
+
+/* nosotros*/
+.contenedor-banner-principal {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    animation:  15s infinite linear alternate;
+    margin-top: 40px;
+}
+
+.capa-degradado {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(to left, #191919, #C2000B);
+    opacity: 0.5;
+}
+
+.contenedor-detalles {
+    width: 100%;
+    max-width: 1300px;
+    position: absolute;
+    margin: auto;
+    height: 100%;
+}
+
+.detalles {
+    width: 50%;
+    position: relative;
+    top: 20%;
+    color: #fff;
+    display: block;
+    margin: auto;
+
+    transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.detalles h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.detalles p {
+    margin-top: 10px;
+    font-size: 1,4rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.detalles a {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: none;
+    border-style: none;
+    border: 1px solid #fff;
+    color: #fff;
+    margin: 20px auto;
+    cursor: pointer;
+    display: block;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+
+    transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.detalles a:hover {
+    background: #fff;
+    color: #000;
+
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #ffe8f9;
+    font-family: 'Roboto', sans-serif;
+}
+
+.parrafo-n {
+    margin: 1rem;
+}
+
+
+
+/*Productos*/
+.galeria {
+    color: rgb(93, 37, 37);
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 15px;
+    background-color: rgba(185, 184, 184, 0.614);
+    flex-wrap: wrap;
+}
+
+div.galeria {
+
+    margin: 10px 20px;
+}
+
+div.galeria img {
+    width: 100%;
+    height: auto;
+}
+
+.foto {
+    background-color: rgba(0, 0, 0, 0.625);
+    margin: 10px 15px;
+    padding: 44px 10px;
+    border: solid black;
+    border-radius: 34px;
+    width: 30%;
+}
+
+.pie {
+    color: aqua;
+    margin: 10px;
+    padding: 18px 0px;
+}
+
+.titulo_p {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+.nosotros {
+    color: beige;
+    background-color: rgba(5, 5, 5, 0.85);
+    width: 700px;
+    height: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.titulo_n {
+    font-size: 50px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.nosotros p {
+    height: 100%;
+    padding: 2rem 1rem;
+    font-size: 2rem;
+}
+
+/*galeria*/
+
+.galeria-img {
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    padding: 40px;
+    background-color: rgba(145, 143, 143, 0.329);
+
+}
+
+.galeria-img .imagenes {
+    max-width: 500px;
+    padding: 1rem;
+}
+
+/* contacto*/
+.contenedor_form {
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding: 30px 0px 20px 20px;
+    background-color: #46444486;
+}
+
+input {
+    background-color: #ffffff;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2e1f1f;
+    margin: 10px 0px 20px 0px;
+    padding-left: 10px;
+}
+
+
+textarea {
+    background-color: #ffffff;
+    width: 400px;
+    height: 130px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ab4493;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+
+label {
+    display: block;
+    align-items: center;
+}
+
+button {
+    height: 45px;
+    padding: 0px 5px;
+    margin: 10px 0 20px 0;
+    text-transform: uppercase;
+    background-color: #5e2851;
+    border-color: #ab4493;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+button p {
+    color: #fff;
+}
+
+span {
+    color: #49203f;
+}
+
+.aviso {
+    font-size: 13px;
+    color: #0e0e0e;
+}
+
+h1 {
+    font-size: 39px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #e7d0e2d5;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 16px;
+    padding-bottom: 30px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    color: #e4d8d8;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    body {
+        background-image: url(../assets/imagenes/fondo2.jpg);
+        overflow: hidden;
+
+    }
+
+    .galeria-img .imagenes {
+        max-width: 25rem;
+        padding: 1rem;
+
+    }
+
+    button {
+        width: 25rem;
+    }
+
+    textarea {
+        width: 25rem;
+    }
+
+    input {
+        width: 25rem;
+    }
+    .contenedor-detalles {
+        position: absolute;
+        margin: auto;
+        padding-bottom: 14rem;
+        height: 100%;
+    }
+    footer{display: none;}
+    .detalles a{display: none;}
+}
