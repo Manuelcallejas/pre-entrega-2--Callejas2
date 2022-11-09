@@ -1,0 +1,331 @@
+.contenedor-banner-principal {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  -webkit-animation: 15s infinite linear alternate;
+          animation: 15s infinite linear alternate;
+  margin-top: 40px;
+}
+.contenedor-banner-principal .capa-degradado {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: linear-gradient(to left, #191919, #C2000B);
+  opacity: 0.5;
+}
+.contenedor-banner-principal .contenedor-detalles {
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  height: 100%;
+}
+.contenedor-banner-principal .contenedor-detalles .detalles {
+  width: 50%;
+  position: relative;
+  top: 20%;
+  color: white;
+  display: block;
+  margin: auto;
+  transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.contenedor-banner-principal .contenedor-detalles .detalles h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 20px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.contenedor-banner-principal .contenedor-detalles .detalles p {
+  margin-top: 10px;
+  font-size: 1.4rem;
+  font-weight: 100;
+  text-align: center;
+}
+.contenedor-banner-principal .contenedor-detalles .detalles a {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: none;
+  border-style: none;
+  border: 1px solid white;
+  color: white;
+  margin: 20px auto;
+  cursor: pointer;
+  display: block;
+  width: 30%;
+  text-align: center;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.contenedor-banner-principal .contenedor-detalles .detalles a:hover {
+  background: white;
+  color: #000;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.parrafo-n {
+  color: white;
+  text-align: center;
+  margin: 1rem;
+}
+
+.conte_producto {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+.conte_producto .foto {
+  width: 330px;
+  height: 550px;
+  border-radius: 5%;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+.conte_producto .foto:hover {
+  transform: translate(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.conte_producto .foto img {
+  width: 330px;
+  height: 500px;
+}
+.conte_producto .titulo_p {
+  padding-top: 10px;
+  font-size: 1.4rem;
+}
+.conte_producto .titulo_p a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #e4d8d8;
+}
+
+.contenedor-banner-principal {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  -webkit-animation: 15s infinite linear alternate;
+          animation: 15s infinite linear alternate;
+  margin-top: 40px;
+}
+.contenedor-banner-principal .capa-degradado {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: linear-gradient(to left, #191919, #C2000B);
+  opacity: 0.5;
+}
+.contenedor-banner-principal .contenedor-detalles {
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  height: 100%;
+}
+.contenedor-banner-principal .contenedor-detalles .detalles {
+  width: 50%;
+  position: relative;
+  top: 20%;
+  color: white;
+  display: block;
+  margin: auto;
+  transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.contenedor-banner-principal .contenedor-detalles .detalles h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 20px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.contenedor-banner-principal .contenedor-detalles .detalles p {
+  margin-top: 10px;
+  font-size: 1.4rem;
+  font-weight: 100;
+  text-align: center;
+}
+.contenedor-banner-principal .contenedor-detalles .detalles a {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: none;
+  border-style: none;
+  border: 1px solid white;
+  color: white;
+  margin: 20px auto;
+  cursor: pointer;
+  display: block;
+  width: 30%;
+  text-align: center;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.contenedor-banner-principal .contenedor-detalles .detalles a:hover {
+  background: white;
+  color: #000;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.parrafo-n {
+  color: white;
+  text-align: center;
+  margin: 1rem;
+}
+
+.contenedor-banner-principal {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  -webkit-animation: 15s infinite linear alternate;
+          animation: 15s infinite linear alternate;
+  margin-top: 40px;
+}
+.contenedor-banner-principal .capa-degradado {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: linear-gradient(to left, #191919, #C2000B);
+  opacity: 0.5;
+}
+.contenedor-banner-principal .contenedor-detalles {
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  height: 100%;
+}
+.contenedor-banner-principal .contenedor-detalles .detalles {
+  width: 50%;
+  position: relative;
+  top: 20%;
+  color: white;
+  display: block;
+  margin: auto;
+  transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.contenedor-banner-principal .contenedor-detalles .detalles h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 20px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.contenedor-banner-principal .contenedor-detalles .detalles p {
+  margin-top: 10px;
+  font-size: 1.4rem;
+  font-weight: 100;
+  text-align: center;
+}
+.contenedor-banner-principal .contenedor-detalles .detalles a {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: none;
+  border-style: none;
+  border: 1px solid white;
+  color: white;
+  margin: 20px auto;
+  cursor: pointer;
+  display: block;
+  width: 30%;
+  text-align: center;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.contenedor-banner-principal .contenedor-detalles .detalles a:hover {
+  background: white;
+  color: #000;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.parrafo-n {
+  color: white;
+  text-align: center;
+  margin: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url(../assets/imagenes/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  #carouselExampleControls {
+    display: none;
+  }
+}
+body {
+  display: grid;
+  grid-template-areas: "navbar navbar" "contenido contenido" "footer footer";
+  grid-template-columns: 1fr, 1fr;
+  grid-template-rows: 1fr, 10fr, 1fr;
+  width: 100%;
+  gap: 1rem;
+  background-image: url(../assets/imagenes/fondo1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+body header {
+  grid-area: navbar;
+  width: 100%;
+  height: 10%;
+}
+body main {
+  grid-area: contenido;
+  width: 100%;
+}
+body main .card-inicio {
+  margin: 4rem;
+}
+body footer {
+  grid-area: footer;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer .buttons {
+  min-width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+body footer .buttons a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  width: 2.3rem;
+  height: 2.3rem;
+  line-height: 2rem;
+  text-align: center;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s ease-in-out;
+}
+body footer .buttons a:hover {
+  transform: scale(1.2);
+}/*# sourceMappingURL=style.css.map */

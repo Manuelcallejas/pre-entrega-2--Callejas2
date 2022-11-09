@@ -1,0 +1,63 @@
+body {
+    display: grid;
+    grid-template-areas: "navbar navbar"
+        "contenido contenido"
+        "footer footer";
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr, 10fr, 1fr;
+    width: 100%;
+    gap: 1rem;
+    background-image: url(../assets/imagenes/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    header {
+        grid-area: navbar;
+        width: 100%;
+        height: 10%;
+    }
+
+    main {
+        grid-area: contenido;
+        width: 100%;
+
+        .card-inicio {
+            margin: 4rem;
+        }
+
+    }
+
+    footer {
+        grid-area: footer;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .buttons {
+            min-width: 60%;
+            display: flex;
+            justify-content: space-around;
+
+            a {
+                text-decoration: none;
+                font-size: 1.5rem;
+                width: 2.3rem;
+                height: 2.3rem;
+                line-height: 2rem;
+                text-align: center;
+                background: #ffffff;
+                color: rgb(0, 0, 0);
+                border-radius: 50%;
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+                transition: all .4s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+}

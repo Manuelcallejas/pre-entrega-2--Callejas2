@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px) {
+    body{
+        background-image: url(../assets/imagenes/fondo2.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    #carouselExampleControls{
+        display: none;
+    }
+}
